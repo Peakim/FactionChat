@@ -40,9 +40,6 @@ public class Chat implements CommandExecutor {
 
                     sender.sendMessage(ChatColor.RED + "" + ChatColor.BOLD + "لطفا یک پیام وارد کنید");
                 }
-            } else {
-                sender.sendMessage(ChatColor.RED + "You dont have permission");
-
             }
 
 
@@ -66,9 +63,6 @@ public class Chat implements CommandExecutor {
 
                     sender.sendMessage(ChatColor.RED + "" + ChatColor.BOLD + "لطفا یک پیام وارد کنید");
                 }
-            } else {
-                sender.sendMessage(ChatColor.RED + "You dont have permission");
-
             }
 
 
@@ -92,10 +86,6 @@ public class Chat implements CommandExecutor {
 
                     sender.sendMessage(ChatColor.RED + "" + ChatColor.BOLD + "لطفا یک پیام وارد کنید");
                 }
-            }
-            else {
-                sender.sendMessage(ChatColor.RED + "You dont have permission");
-
             }
 
         }
