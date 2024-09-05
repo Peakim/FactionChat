@@ -1,0 +1,8 @@
+name: FactionChat
+version: '${project.version}'
+main: org.peakimo.factionchat.FactionChat
+api-version: '1.16'
+commands:
+  f:
+    description: use for send message
+    usage: </command>
