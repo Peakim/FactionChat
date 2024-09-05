@@ -40,7 +40,11 @@ public class Chat implements CommandExecutor {
 
                     sender.sendMessage(ChatColor.RED + "" + ChatColor.BOLD + "لطفا یک پیام وارد کنید");
                 }
+            } else {
+                sender.sendMessage(ChatColor.RED + "You dont have permission");
+
             }
+
 
             // Chat Police
             if (sender.hasPermission("FactionChat.two")) {
@@ -62,7 +66,11 @@ public class Chat implements CommandExecutor {
 
                     sender.sendMessage(ChatColor.RED + "" + ChatColor.BOLD + "لطفا یک پیام وارد کنید");
                 }
+            } else {
+                sender.sendMessage(ChatColor.RED + "You dont have permission");
+
             }
+
 
             // Chat Medic
             if (sender.hasPermission("FactionChat.three")) {
@@ -85,6 +93,11 @@ public class Chat implements CommandExecutor {
                     sender.sendMessage(ChatColor.RED + "" + ChatColor.BOLD + "لطفا یک پیام وارد کنید");
                 }
             }
+            else {
+                sender.sendMessage(ChatColor.RED + "You dont have permission");
+
+            }
+
         }
         return true;
     }
