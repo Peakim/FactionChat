@@ -1,7 +1,7 @@
 package org.peakimo.factionchat;
 
 import org.bukkit.plugin.java.JavaPlugin;
-import org.peakimo.factionchat.Events.Chat;
+import org.peakimo.factionchat.Commands.Chat;
 
 public final class FactionChat extends JavaPlugin {
 
